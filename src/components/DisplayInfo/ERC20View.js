@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from "react"
-import { ethContractKey } from "../utils"
+import { ethContractKey } from "../../utils"
 import useSWR from "swr";
 import { useWeb3React } from "@web3-react/core"
 import { formatUnits } from "@ethersproject/units"

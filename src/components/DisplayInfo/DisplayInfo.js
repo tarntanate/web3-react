@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { TOKENS_BY_NETWORK } from "../utils/TOKENS_BY_NETWORK";
+import { TOKENS_BY_NETWORK } from "../../utils/TOKENS_BY_NETWORK";
 import { ERC20View } from "./ERC20View";
 import { EtherView } from "./EtherView";
 
