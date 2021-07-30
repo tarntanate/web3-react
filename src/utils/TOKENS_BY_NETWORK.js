@@ -597,7 +597,7 @@ export const TOKENS_BY_NETWORK = {
     ],
     [Networks.BSCMainNet]: [
         {
-            address: "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
+            address: "0x0000000000000000000000000000000000001002",
             symbol: "BNB",
             name: "BNB",
             decimals: 18,
@@ -611,15 +611,15 @@ export const TOKENS_BY_NETWORK = {
     ],
     [Networks.BSCTestNet]: [
         {
-            address: "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
-            symbol: "BNB",
-            name: "BNB",
+            address: "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+            symbol: "WBNB",
+            name: "Wrapped BNB (TestNet)",
             decimals: 18,
         },
         {
             address: "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
             symbol: "BTCB",
-            name: "BEP-20 (BTCB)",
+            name: "BEP-20 (BTCB) Token",
             decimals: 18,
         },
     ],

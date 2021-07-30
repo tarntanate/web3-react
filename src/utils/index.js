@@ -4,6 +4,9 @@
 import { Contract } from "@ethersproject/contracts";
 import memoize from "fast-memoize";
 
+export const shorter = (str) =>
+  str?.length > 8 ? str.slice(0, 6) + '...' + str.slice(-4) : str
+  
 export function buildContract(address, abi, library) {
   return new Contract(address, abi, library.getSigner());
 }
