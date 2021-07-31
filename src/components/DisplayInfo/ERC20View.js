@@ -1,9 +1,9 @@
-import React, { useEffect, useMemo } from "react"
-import { ethContractKey } from "../../utils"
+import React from "react"
 import useSWR from "swr";
+import { ethContractKey } from "../../utils"
 import { useWeb3React } from "@web3-react/core"
 import { formatUnits } from "@ethersproject/units"
-import { BigNumber } from "@ethersproject/bignumber"
+// import { BigNumber } from "@ethersproject/bignumber"
 // import { ABI, ABIs } from "../abi";
 // import { useWeb3Filter } from "../hooks/useWeb3Filter"
 
