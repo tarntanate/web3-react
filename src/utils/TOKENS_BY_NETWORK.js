@@ -611,7 +611,7 @@ export const TOKENS_BY_NETWORK = {
     ],
     [Networks.BSCTestNet]: [
         {
-            address: "0xEa6c080B87fe7ae2e6B130b1746735404Fa83367",
+            address: "0x8F025EC4608E6e9e0d3F907A390c8075a596Bb20",
             symbol: "getCounter",
             name: "getCounter(TestNet)",
             decimals: 18,

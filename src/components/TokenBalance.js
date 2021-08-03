@@ -32,6 +32,16 @@ export const TokenBalance = ({ symbol, address, decimals }) => {
     contract.reset();
   };
 
+  const failForNonZero = async (e) => {
+    e.preventDefault();
+    const contract = new Contract(address, myContractABI, library.getSigner());
+    try {
+      await contract.failForNonZero(5);
+    } catch (error) {
+      console.debug(error.data);
+    }
+  };
+
   // const { data: balance2 } = useSWR([address, "increase"], {
   //   fetcher: fetcher(library, myContractABI),
   // });
@@ -81,6 +91,9 @@ export const TokenBalance = ({ symbol, address, decimals }) => {
       </button>{" "}
       <button style={{ backgroundColor: "red" }} onClick={reset} type="button">
         Reset
+      </button>
+      <button style={{ backgroundColor: "blue" }} onClick={failForNonZero} type="button">
+      failForNonZero
       </button>
       {/* {parseFloat(formatUnits(balance, decimals)).toPrecision(4)} {symbol} */}
     </div>

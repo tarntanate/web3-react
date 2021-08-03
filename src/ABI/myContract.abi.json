@@ -7,6 +7,13 @@
     "type": "constructor"
   },
   {
+    "inputs": [{ "internalType": "uint256", "name": "i", "type": "uint256" }],
+    "name": "failForNonZero",
+    "outputs": [],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "getCounter",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
