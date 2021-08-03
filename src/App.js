@@ -1,17 +1,15 @@
 import React from "react";
 import { Web3ReactProvider } from "@web3-react/core";
 import { Web3Provider } from "@ethersproject/providers";
-// import { EtherView } from "./components/EtherView";
-import { DisplayInfo } from "./components/DisplayInfo/DisplayInfo";
 import { Wallet } from "./components/Wallet";
 
 function getLibrary(provider) {
-  console.debug(provider);
+  console.debug({provider});
 
   const library = new Web3Provider(provider);
 
   console.debug({library});
-  library.pollingInterval = 12000;
+  library.pollingInterval = 10000;
   return library;
 }
 

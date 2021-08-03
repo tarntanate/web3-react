@@ -611,22 +611,28 @@ export const TOKENS_BY_NETWORK = {
     ],
     [Networks.BSCTestNet]: [
         {
-            address: "0x8301f2213c0eed49a7e28ae4c3e91722919b8b47",
-            symbol: "BUSD",
-            name: "BUSD(TestNet)",
+            address: "0xEa6c080B87fe7ae2e6B130b1746735404Fa83367",
+            symbol: "getCounter",
+            name: "getCounter(TestNet)",
             decimals: 18,
         },
+        // {
+        //     address: "0x8301f2213c0eed49a7e28ae4c3e91722919b8b47",
+        //     symbol: "BUSD",
+        //     name: "BUSD(TestNet)",
+        //     decimals: 18,
+        // },
         // {
         //     address: "0xae13d989dac2f0debff460ac112a837c89baa7cd",
         //     symbol: "WBNB",
         //     name: "Wrapped BNB (TestNet)",
         //     decimals: 18,
         // },
-        {
-            address: "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
-            symbol: "BTCB",
-            name: "BEP-20 (BTCB) Token",
-            decimals: 18,
-        },
+        // {
+        //     address: "0x6ce8da28e2f864420840cf74474eff5fd80e65b8",
+        //     symbol: "BTCB",
+        //     name: "BEP-20 (BTCB) Token",
+        //     decimals: 18,
+        // },
     ],
 };

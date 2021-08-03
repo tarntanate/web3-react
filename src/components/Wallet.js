@@ -26,7 +26,6 @@ export const Wallet = () => {
           <h4>Account Balance</h4>
           <Balance />
           <div>
-            <h4>Tokens Balance</h4>
             <TokenList chainId={chainId} />
           </div>
         </div>
